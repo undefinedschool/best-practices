@@ -38,5 +38,7 @@ Este es un documento vivo sobre convenciones y prácticas que recomendamos segui
 
 - Escribir mensajes de commits en inglés.
 - Escribir mensajes de commits descriptivos.
-- Escribir los mensajes de commits en *[tiempo presente, modo imperativo](https://stackoverflow.com/a/3580764)*.
+- En lo posible, comitear de forma frecuente.
 - Intentar, en lo posible, realizar *[commits](https://seesparkbox.com/foundry/atomic_commits_with_git) [atómicos](http://www.pauline-vos.nl/atomic-commits/)*.
+- Escribir los mensajes de commits en *[tiempo presente, modo imperativo](https://stackoverflow.com/a/3580764)*.
+
