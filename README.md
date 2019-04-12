@@ -32,6 +32,7 @@ Esta es sólo una guía general que toma ciertas prácticas comunes. Resulta fun
 ## General
 
 - Para nombrar archivos y carpetas, utilizar *lowercase* (minúsculas), separando palabras con guiones medios. Ej: `index.html`, `common-styles.css`.
+- Usar _[soft tabs](https://opensourcehacker.com/2012/05/13/never-use-hard-tabs/)_ (2 espacios) para indentar el código.
 - **LCS:** para cualquier código que escribamos, intentar, en lo posible, *optimizarlo* para que sea 
   - **L**egible
   - **C**onsistente
@@ -56,12 +57,46 @@ Esta es sólo una guía general que toma ciertas prácticas comunes. Resulta fun
 ## CSS3
 
 - Estilar, en lo posible, usando clases. De esta forma obtenemos mayor control sobre la _especificidad_ y resulta más fácil componer estilos.
+- Para los nombres de las clases utilizar *lowercase* (minúsculas), separando palabras con guiones medios. Ej: `.custom-btn`.
+- Evitar utilizar selectores de ID.
+- Si utilizamos selectores múltiples para definir una regla de estilo, escribir cada uno en su propia línea.
+- Separar cada regla de estilo con 1 línea en blanco.
 - Si usamos HTML5, con tags más semánticos y no genéricos, vamos a escribir menos CSS, más legible y mantenible.
 - Reutilizar estilos comunes entre componentes, utilizando la cascada.
 - Componer estilos usando clases (ver, por ejemplo, cómo aplica esto [Tachyons](https://github.com/dwyl/learn-tachyons)).
 - Reset: utilizar `box-sizing: border-box` para todos los elementos del sitio, al igual que empezar con `margin` y `padding` en 0.
 - Es recomendable escribir los selectores más genéricos al principio para evitar pisar estilos.
 - En lo posible, definir alguna convención para el nombre de los selectores y tratar de mantenerla. Ser consistentes.
+
+
+✅ **Ok**
+
+```css
+.avatar{
+    border-radius:50%;
+    border:2px solid white; }
+.no, .nope, .not_good {
+    // ...
+}
+#lol-no {
+  // ...
+}
+```
+
+❌ **Mmm, mejor no**
+
+```css
+.avatar {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.one,
+.selector,
+.per-line {
+  // ...
+}
+```
 
 ## Git
 
