@@ -81,7 +81,7 @@ Esta es sólo una guía general que toma ciertas prácticas comunes. Resulta fun
 - El código que escribimos no es para la máquina, sino para _comunicar ideas a otras personas_. Por eso, queremos que sea lo más claro posible. Ver _[Code is for Humans](https://frontendmasters.com/teachers/kyle-simpson/code-is-for-humans/)_ y _[Don’t be clever](https://www.simplethread.com/dont-be-clever/)_.
 - Utilizar **nombres descriptivos** para constantes, variables y funciones. Ver ítem anterior.
 - En lo posible, escribir 1 instrucción por línea de código.
-- Utilizar `const`por defecto, 
+- Utilizar `const` por defecto. 
 - Si queremos definir algo **explícitamente como variable**, utilizar `let`.
 - Evitar usar `var`.
 - Utilizar `===` para operaciones de comparación para evitar caer en las trampas del _[type coercion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)_.
