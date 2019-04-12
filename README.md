@@ -57,7 +57,7 @@ Esta es sólo una guía general que toma ciertas prácticas comunes. Resulta fun
 
 - Estilar, en lo posible, usando clases. De esta forma obtenemos mayor control sobre la _especificidad_ y resulta más fácil componer estilos.
 - Para los nombres de las clases utilizar *lowercase* (minúsculas), separando palabras con guiones medios. Ej: `.custom-btn`.
-- Evitar utilizar selectores de ID.
+- Evitar utilizar selectores de ID. Introducen un alto nivel de especificidad a nuestras reglas y no son reutilizables.
 - Evitar, en lo posible, utilizar estilos *inline* e `!important` para [no alterar la _especificidad_](https://csswizardry.com/2014/07/hacks-for-dealing-with-specificity/) y dificultar el mantenimiento posterior.
 - Si utilizamos selectores múltiples para definir una regla de estilo, escribir cada uno en su propia línea.
 - Separar cada regla de estilo con 1 línea en blanco.
