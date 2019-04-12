@@ -68,7 +68,8 @@ Las buenas prácticas son convenciones que adoptamos para _estandarizar_ nuestra
 
 ## JavaScript
 
-- El código que escribimos no es para la máquina, sino para comunicar ideas a otras personas. Por eso, queremos que sea lo más claro posible. Ver _[Code is for Humans](https://frontendmasters.com/teachers/kyle-simpson/code-is-for-humans/)_ y _[Don’t be clever](https://www.simplethread.com/dont-be-clever/)_.
+- El código que escribimos no es para la máquina, sino para _comunicar ideas a otras personas_. Por eso, queremos que sea lo más claro posible. Ver _[Code is for Humans](https://frontendmasters.com/teachers/kyle-simpson/code-is-for-humans/)_ y _[Don’t be clever](https://www.simplethread.com/dont-be-clever/)_.
+- Utilizar **nombres descriptivos** para constantes, variables y funciones. Ver ítem anterior.
 - En lo posible, escribir 1 instrucción por línea de código.
 - Utilizar `const`por defecto, 
 - Si queremos definir algo **explícitamente como variable**, utilizar `let`.
