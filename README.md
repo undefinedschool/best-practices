@@ -17,6 +17,7 @@ Si te resultó útil, te agradecemos que lo compartas. También puedes seguirnos
 - [HTML5](#html5)
 - [CSS3](#css3)
 - [Git](#git)
+- [Comentarios](#comentarios)
 - [JavaScript](#javascript)
 
 ## Disclaimer
