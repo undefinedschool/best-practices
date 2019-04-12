@@ -45,7 +45,6 @@ Esta es sólo una guía general que toma ciertas prácticas comunes. Resulta fun
 
 - Definir/planificar la estructura de nuestro sitio en secciones o *componentes*, **antes de empezar a escribir el código**. Lápiz y papel!
 - Separar el *contenido/estructura* de la *presentación*. Para los estilos usamos CSS, evitar tags como `b`ó `i` por ejemplo.
-- Evitar, en lo posible, utilizar estilos *inline* e `!important` para no alterar la _especificidad_ y dificultar el mantenimiento posterior.
 - Usar HTML5 y tags *semánticos*. No abusar del `div`.
 - Usar los distintos tipos de *headings* cuando corresponda (`h1`...`h6`), para darle jerarquía al contenido de nuestro sitio y facilitarle el trabajo a screen-readers y buscadores.
 - Evitar, en lo posible, los contenedores genéricos. No abusar del `div`.
@@ -59,6 +58,7 @@ Esta es sólo una guía general que toma ciertas prácticas comunes. Resulta fun
 - Estilar, en lo posible, usando clases. De esta forma obtenemos mayor control sobre la _especificidad_ y resulta más fácil componer estilos.
 - Para los nombres de las clases utilizar *lowercase* (minúsculas), separando palabras con guiones medios. Ej: `.custom-btn`.
 - Evitar utilizar selectores de ID.
+- Evitar, en lo posible, utilizar estilos *inline* e `!important` para [no alterar la _especificidad_](https://csswizardry.com/2014/07/hacks-for-dealing-with-specificity/) y dificultar el mantenimiento posterior.
 - Si utilizamos selectores múltiples para definir una regla de estilo, escribir cada uno en su propia línea.
 - Separar cada regla de estilo con 1 línea en blanco.
 - Si usamos HTML5, con tags más semánticos y no genéricos, vamos a escribir menos CSS, más legible y mantenible.
