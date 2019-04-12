@@ -2,6 +2,13 @@
 
 Este es un documento vivo sobre convenciones y prácticas que recomendamos seguir a lo largo del [curso de Desarrollo Web Full Stack](http://undefinedschool.io).
 
+## Sugerencias
+
+Si tienes alguda duda, comentario o sugerencia (bienvenida!), puedes abrir un [issue](https://github.com/undefinedschool/best-practices/issues).
+
+## Comparte
+
+Si te resultó útil, te agradecemos que lo compartas. También puedes seguirnos en [Twitter](https://twitter.com/undefinedSchool) ó [Instagram](https://instagram.com/undefinedschool) 💪
 
 ## Contenido
 
@@ -14,19 +21,21 @@ Este es un documento vivo sobre convenciones y prácticas que recomendamos segui
 
 ## Disclaimer
 
-Las buenas prácticas son convenciones que adoptamos para _estandarizar_ nuestra forma de desarrollar, utilizar ciertos patrones que nos permitan evitar algunos errores comunes y escribir código de mayor calidad, más legible, mantenible, escalable, etc. 
+Las buenas prácticas son convenciones que adoptamos para _estandarizar_ nuestra forma de desarrollar, utilizar ciertos patrones que nos permitan evitar algunos errores comunes y escribir código de mayor calidad, legible, mantenible, escalable, etc. 
 
 - **No son reglas**. Siempre debemos tener en cuenta el _contexto_ y no aplicarlas ciegamente.
-- **Son subjetivas y muchas veces arbitrarias**. Resulta fundamental por eso, en lo posible, seguir las guías de buenas prácticas y estilos del proyeto en el que estemos trabajando y si no las tiene, buscar la oportunidad de discutirlas y definirlas.
+- **Son subjetivas y muchas veces arbitrarias**. 
+
+Esta es sólo una guía general que toma ciertas prácticas comunes. Resulta fundamental por eso, seguir las guías de buenas prácticas y estilos del proyecto en el que estemos trabajando y si no las tuviese, buscar la oportunidad de discutirlas y definirlas.
 
 ## General
 
-- Para nombrar archivos y carpetas, vamos a utilizar *lowercase* (minúsculas), separando palabras con guiones medios. Ej: `index.html`, `common-styles.css`.
+- Para nombrar archivos y carpetas, utilizar *lowercase* (minúsculas), separando palabras con guiones medios. Ej: `index.html`, `common-styles.css`.
 - **LCS:** para cualquier código que escribamos, intentar, en lo posible, *optimizarlo* para que sea 
   - **L**egible
   - **C**onsistente
   - **S**imple 
-- Nunca olvidarnos de que escribimos código para que lo lean otras personas. Debería ser *[simple de entender](https://www.oreilly.com/library/view/the-art-of/9781449318482/ch01.html)*. Como diría el gran Kyle Simpson, _[Code is for Humans](https://frontendmasters.com/teachers/kyle-simpson/code-is-for-humans/)_. Salvo que estemos programando compiladores, claro.
+- Nunca olvidarnos de que escribimos código para otras personas. Debería ser *[simple de entender](https://www.oreilly.com/library/view/the-art-of/9781449318482/ch01.html)*. Como diría el gran Kyle Simpson, _[Code is for Humans](https://frontendmasters.com/teachers/kyle-simpson/code-is-for-humans/)_. Salvo que estemos programando compiladores, claro.
 - Utilizar _styleguides_ para estandarizar y normalizar la forma en que escribimos código. Ejemplos: [Mark Otto - HTML & CSS Styleguide](http://codeguide.co/), [AirBnB - CSS Styleguide](https://github.com/airbnb/css), [AirBnB -  JavaScript Styleguide](https://github.com/airbnb/javascript).
 - Utilizar herramientas tales como [linters](https://eslint.org/) y [formateadores de código](https://prettier.io/). [Esta es una guía](https://www.youtube.com/watch?v=lHAeK8t94as) para realizar el setup de `Eslint + Prettier`. Existen alternativas similares, lo importante es fijar alguna convención y _styleguide_ para el proyecto.
 
