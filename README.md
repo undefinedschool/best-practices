@@ -14,9 +14,10 @@ Este es un documento vivo sobre convenciones y prácticas que recomendamos segui
 
 ## Disclaimer
 
-Las buenas prácticas son convenciones que adoptamos para _estandarizar_ nuestra forma de desarrollar, utilizar ciertos patrones que nos permitan evitar algunos errores comunes y escribir código de mayor calidad, más legible, mantenible, escalable, etc. **No son reglas**, siempre debemos tener en cuenta el _contexto_ y no aplicarlas ciegamente.
+Las buenas prácticas son convenciones que adoptamos para _estandarizar_ nuestra forma de desarrollar, utilizar ciertos patrones que nos permitan evitar algunos errores comunes y escribir código de mayor calidad, más legible, mantenible, escalable, etc. 
 
-**Son subjetivas**. Resulta fundamental por eso, en lo posible, seguir las guías de buenas prácticas y estilos del proyeto en el que estemos trabajando y si no las tiene, buscar la oportunidad de discutirlas y definirlas.
+- **No son reglas**. Siempre debemos tener en cuenta el _contexto_ y no aplicarlas ciegamente.
+- **Son subjetivas**. Resulta fundamental por eso, en lo posible, seguir las guías de buenas prácticas y estilos del proyeto en el que estemos trabajando y si no las tiene, buscar la oportunidad de discutirlas y definirlas.
 
 ## General
 
