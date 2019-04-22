@@ -68,8 +68,7 @@ Esta es sólo una guía general que toma ciertas prácticas comunes. Resulta fun
 - Es recomendable escribir los selectores más genéricos al principio para evitar pisar estilos.
 - En lo posible, definir alguna convención para el nombre de los selectores y tratar de mantenerla. Ser consistentes.
 
-
-✅ **Ok**
+❌ **Mmm, mejor no**
 
 ```css
 .avatar{
@@ -83,7 +82,7 @@ Esta es sólo una guía general que toma ciertas prácticas comunes. Resulta fun
 }
 ```
 
-❌ **Mmm, mejor no**
+✅ **Ok**
 
 ```css
 .avatar {
