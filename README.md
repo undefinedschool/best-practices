@@ -119,3 +119,4 @@ Esta es sólo una guía general que toma ciertas prácticas comunes. Resulta fun
 - Si queremos definir algo **explícitamente como variable**, utilizar `let`.
 - Evitar usar `var`.
 - Utilizar `===` para operaciones de comparación para evitar caer en las trampas del _[type coercion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)_.
+- Utilizar, en lo posible, _[funciones puras](https://twitter.com/housecor/status/1122832091413209089)_ en nuestro código.
