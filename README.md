@@ -104,6 +104,7 @@ Esta es sólo una guía general que toma ciertas prácticas comunes. Resulta fun
 - En lo posible, _comitear_ de forma frecuente.
 - Intentar, en lo posible, realizar *[commits](https://seesparkbox.com/foundry/atomic_commits_with_git) [atómicos](http://www.pauline-vos.nl/atomic-commits/)*.
 - Escribir los mensajes de commits en *[tiempo presente, modo imperativo](https://stackoverflow.com/a/3580764)*.
+- Más tips para escribir mejores mensajes de commit [acá](https://github.com/RomuloOliveira/commit-messages-guide)
 
 ## Comentarios
 
