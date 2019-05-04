@@ -109,6 +109,7 @@ Esta es sólo una guía general que toma ciertas prácticas comunes. Resulta fun
 ## Comentarios
 
 - Utilizar, en lo posible, _comentarios minimales_, es decir, los necesarios, ni más ni menos. Para ver mejor de qué se trata esto, leer la sección _Minimal Comments_ del artículo _[The Exceptional Beauty of Doom 3's Source Code](https://kotaku.com/the-exceptional-beauty-of-doom-3s-source-code-5975610)_.
+- Los comentarios deberían hablarnos , en lo posible, del _por qué_, no del _qué_. El _por qué_ implica darle información sobre el contexto del problema y las decisiones que tomamos a nuestros lectores, que para nosotros es evidente pero no para el resto. El código _debería ser lo suficientemente claro_ para describir el _qué_.
 - Si nuestro código está demasiado comentado, podemos tomarlo como indicador de que quizás no sea lo suficientemente claro.
 
 ## JavaScript
