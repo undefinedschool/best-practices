@@ -125,4 +125,4 @@ Esta es sólo una guía general que toma ciertas prácticas comunes. Resulta fun
 - Utilizar `===` para operaciones de comparación para evitar caer en las trampas del _[type coercion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)_.
 - Utilizar, en lo posible, _[funciones puras](https://twitter.com/housecor/status/1122832091413209089)_ en nuestro código.
 - Utilizar los [métodos de Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) para operaciones que hagamos con los mismos.
-- Evitar el uso de variables globales.
+- Evitar el uso de [variables globales](https://www.youtube.com/watch?v=vGZGvNgZJMo).
