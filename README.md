@@ -106,6 +106,7 @@ Esta es sólo una guía general que toma ciertas prácticas comunes. Resulta fun
 - Escribir los mensajes de commits en *[tiempo presente, modo imperativo](https://stackoverflow.com/a/3580764)*.
 - Más tips para escribir mejores mensajes de commit [acá](https://github.com/RomuloOliveira/commit-messages-guide).
 - Eliminar los branches que ya no utilizamos, tanto localmente como de GitHub.
+- Antes de hacer un `pull` para traernos los cambios nuevos, hacer `commit` de nuestros cambios locales
 
 ## Comentarios
 
@@ -123,3 +124,5 @@ Esta es sólo una guía general que toma ciertas prácticas comunes. Resulta fun
 - Evitar usar `var`.
 - Utilizar `===` para operaciones de comparación para evitar caer en las trampas del _[type coercion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)_.
 - Utilizar, en lo posible, _[funciones puras](https://twitter.com/housecor/status/1122832091413209089)_ en nuestro código.
+- Utilizar los [métodos de Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) para operaciones que hagamos con los mismos.
+- Evitar el uso de variables globales.
